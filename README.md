@@ -1,6 +1,7 @@
 # BurnTrack: Running Insights with Apple Watch
 
 ## Description
+**Sabanci University - Mehmet Ali Atagün, DSA210 Introduction to Data Science Course Fall 2024-2025 Term Project.**  
 This project was created as part of a data analysis initiative to gain insights into my daily running habits. Using data collected from the **Apple Watch Workout app**, I analyzed trends in calories burned, distance covered, and time spent running. The project provides an overview of my fitness routine and aims to uncover areas for improvement and optimization.
 
 ---
