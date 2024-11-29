@@ -2,7 +2,7 @@
 
 ## Description
 **Sabanci University - Mehmet Ali Atagün, 29481, DSA210 Introduction to Data Science Course Project.**  
-This project was created as part of a data analysis initiative to gain insights into my daily running habits. Using data collected from the **Apple Watch Workout app**, I analyzed trends in calories burned, distance covered, and time spent running. The project provides an overview of my fitness routine and aims to uncover areas for improvement and optimization.
+This project aims to explore and analyze my daily running habits using data collected from the **Apple Watch Workout app**. By focusing on calories burned, distance covered, and time spent running, I plan to uncover trends and insights that can help improve my fitness routine.
 
 ---
 
@@ -10,79 +10,58 @@ This project was created as part of a data analysis initiative to gain insights 
 - [Motivation](#motivation)
 - [Tools](#tools)
 - [Data Source](#data-source)
-- [Data Processing](#data-processing)
-- [Data Visualizations](#data-visualizations)
-- [Data Analysis](#data-analysis)
-- [Findings](#findings)
-- [Limitations](#limitations)
-- [Future Work](#future-work)
+- [Project Plan](#project-plan)
 
 ---
 
 ## Motivation
-Running is a core part of my daily routine, and I wanted to better understand the impact of my efforts on my fitness progress. By analyzing my workout data, I aim to:
-- Identify trends in calories burned, distance, and time.
-- Improve the consistency of my runs.
-- Leverage these insights to create a more effective fitness plan.
+Running is a core part of my daily routine, and I have always been curious about how my efforts translate into measurable fitness outcomes. With this project, I aim to:
+- Understand trends in my calorie burn, running distance, and time spent.
+- Leverage these insights to improve the consistency and effectiveness of my workouts.
+- Develop a data-driven approach to monitor and enhance my physical performance.
 
 ---
 
 ## Tools
-- **Apple Watch Workout App**: For data collection during running sessions.
+- **Apple Watch Workout App:** For collecting data during each running session.
+- **Python:** For processing and analyzing the collected data.
+- **Pandas & Matplotlib (Planned):** To structure the data and create visualizations.
 
 ---
 
 ## Data Source
-The data was collected using the **Apple Watch Workout app**, which tracks running metrics in real-time. After each run, I manually logged the following variables into a CSV file:
-- **Date**: The date of the run.
-- **Distance (km)**: The total distance covered.
-- **Duration (minutes)**: The time spent running.
-- **Calories Burned**: The estimated calories burned during the workout.
+The data for this project will be collected manually from the **Apple Watch Workout app**, which provides detailed metrics for each workout session. The dataset will include the following variables:
+- **Date:** The date of the workout.
+- **Distance (km):** The total distance covered during the run.
+- **Duration (minutes):** The time spent running.
+- **Calories Burned:** The estimated calories burned as tracked by the Apple Watch.
 
 ---
 
-## Data Processing
-The raw data collected from the Apple Watch was processed as follows:
-1. Cleaned and structured into a CSV file for easy manipulation.
-2. Converted date and time fields into a unified format.
-3. Filtered out any incomplete or outlier data entries.
+## Project Plan
+1. **Data Collection:**
+   - I will manually log my workout data from the Apple Watch Workout app after each run.
+   - The data will be organized into a structured CSV file for analysis.
+
+2. **Data Processing:**
+   - Clean and format the raw data for consistency.
+   - Filter out incomplete or anomalous entries.
+
+3. **Exploratory Data Analysis (EDA):**
+   - Compute summary statistics to identify patterns (e.g., average calories burned, total distance run).
+   - Analyze trends over time, such as weekly or monthly calorie burn.
+
+4. **Visualization (Planned):**
+   - Create graphs to visualize calorie burn trends, distance vs. calories, and run duration trends.
+
+5. **Expected Outcomes:**
+   - Gain insights into my running habits and patterns.
+   - Identify areas where I can improve consistency or efficiency in my runs.
 
 ---
 
-## Data Visualizations
-Visualizations were created to make sense of the data and uncover trends:
-- A line graph showing calorie burn over time.
-- A scatter plot analyzing the relationship between distance and calories burned.
-- A bar chart summarizing weekly calorie trends.
-
----
-
-## Data Analysis
-1. **Trends in Calories Burned**:
-   - Weekly and monthly calorie burn patterns were analyzed to identify peak performance periods.
-2. **Correlation Analysis**:
-   - Explored how distance and duration impacted calorie burn.
-3. **Consistency Tracking**:
-   - Analyzed run frequency and duration over time.
-
----
-
-## Findings
-- **Consistent Habits**: Regular running sessions result in a steady calorie burn.
-- **Impact of Distance**: Longer distances showed a significant increase in calories burned.
-- **Weekly Patterns**: Calorie burn is higher during weekdays compared to weekends.
-
----
-
-## Limitations
-- **Data Sourcing Limitations**: Manually logging data may introduce errors.
-- **Personal Limitations**: The findings are specific to my fitness routine and may not apply universally.
-
----
-
-## Future Work
-1. Automate data collection by integrating directly with the Apple Health app.
-2. Add additional metrics such as heart rate or elevation gain for more comprehensive insights.
-3. Develop a machine learning model to predict calorie burn based on input parameters like distance and time.
+## Notes
+- This project is in its initial planning stage, and analysis will begin once sufficient data has been collected.
+- Future improvements could include automating data collection directly from the Apple Health app or expanding the dataset with additional metrics like heart rate or elevation.
 
 ---
