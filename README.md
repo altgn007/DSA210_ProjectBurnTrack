@@ -12,7 +12,7 @@ In this repository, we maintain both a **Python-based analysis** (`analysis.py`)
 
 ### Web Demo & Key Files
 
-- **Project Website**: [**BurnTrack Web Visualization**](https://example-link-to-website.com)
+- **Project Website**: [**BurnTrack Web Visualization**](https://altgn007.github.io/DSA210_ProjectBurnTrack/)
 - **Key Files**:
   - [`index.html`](index.html)
   - [`style.css`](style.css)
