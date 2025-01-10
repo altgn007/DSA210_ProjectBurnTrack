@@ -140,6 +140,3 @@ In both **analysis.py** and **script.js**, this exact distribution is preserved.
 - If you need exactly 5 days in Week 1, you’d add 2 more days before Nov 15 or adjust the date range.
 
 ---
-
-**Happy Running & Analyzing!**  
-_“First I run the data, then the data runs me.”_
