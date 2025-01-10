@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8" />
+  <title>BurnTrack: 1 km More Each Week</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <h1>BurnTrack: Running Insights with Apple Watch</h1>
+    <h2>Weekly Distance Increase and Weight Change with Apple Watch Fitness Data</h2>
+    <p><strong>Mehmet Ali Atagün - 29481</strong></p>
+  </header>
+
+  <section class="hypothesis">
+    <h2>Hypothesis</h2>
+    <p>
+      <em>“Starting with 2 km in the first week and increasing the distance by 1 km each subsequent week may enhance the rate of weight loss.”</em>
+    </p>
+  </section>
+
+  <section class="data-table">
+    <h2>Running Data (November 15 - December 29)</h2>
+    <p>
+        The table below shows the daily running data I collected (or simulated) from the Apple Watch Fitness app. <br />
+      (Weight loss was observed using a scale on Fridays.)
+    </p>
+
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Days #</th>
+            <th>Date</th>
+            <th>Distance (km)</th>
+            <th>Duration (min)</th>
+            <th>Calories (kcal)</th>
+            <th>Weight (Fridays)</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+          <tr><td colspan="6" class="week">Week 1</td></tr>
+          <tr>
+            <td>1</td>
+            <td>Wednesday, November 15</td>
+            <td>2.0</td>
+            <td>20</td>
+            <td>156</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Thursday, November 16</td>
+            <td>2.3</td>
+            <td>23</td>
+            <td>179</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Friday, November 17</td>
+            <td>2.1</td>
+            <td>21</td>
+            <td>164</td>
+            <td>77.8 (−0.2 kg)</td>
+          </tr>
+
+          <tr><td colspan="6" class="week">Week 2</td></tr>
+          <tr>
+            <td>4</td>
+            <td>Monday, November 20</td>
+            <td>3.0</td>
+            <td>30</td>
+            <td>234</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Tuesday, November 21</td>
+            <td>3.2</td>
+            <td>32</td>
+            <td>250</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Wednesday, November 22</td>
+            <td>2.9</td>
+            <td>29</td>
+            <td>226</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Thursday, November 23</td>
+            <td>3.1</td>
+            <td>31</td>
+            <td>242</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Friday, November 24</td>
+            <td>3.0</td>
+            <td>30</td>
+            <td>234</td>
+            <td>77.5 (−0.3 kg)</td>
+          </tr>
+
+          <tr><td colspan="6" class="week">Week 3</td></tr>
+          <tr>
+            <td>9</td>
+            <td>Monday, November 27</td>
+            <td>4.0</td>
+            <td>40</td>
+            <td>312</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>Tuesday, November 28</td>
+            <td>4.3</td>
+            <td>43</td>
+            <td>335</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td>Wednesday, November 29</td>
+            <td>3.8</td>
+            <td>38</td>
+            <td>296</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td>Thursday, November 30</td>
+            <td>4.2</td>
+            <td>42</td>
+            <td>328</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td>Friday, December 1</td>
+            <td>4.0</td>
+            <td>40</td>
+            <td>312</td>
+            <td>77.1 (−0.4 kg)</td>
+          </tr>
+
+          <tr><td colspan="6" class="week">Week 4</td></tr>
+          <tr>
+            <td>14</td>
+            <td>Monday, December 4</td>
+            <td>5.0</td>
+            <td>50</td>
+            <td>390</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td>Tuesday, December 5</td>
+            <td>5.2</td>
+            <td>52</td>
+            <td>406</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>16</td>
+            <td>Wednesday, December 6</td>
+            <td>4.8</td>
+            <td>48</td>
+            <td>374</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>17</td>
+            <td>Thursday, December 7</td>
+            <td>5.1</td>
+            <td>51</td>
+            <td>398</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>18</td>
+            <td>Friday, December 8</td>
+            <td>5.0</td>
+            <td>50</td>
+            <td>390</td>
+            <td>76.65 (−0.45 kg)</td>
+          </tr>
+
+          <tr><td colspan="6" class="week">Week 5</td></tr>
+          <tr>
+            <td>19</td>
+            <td>Monday, December 11</td>
+            <td>6.0</td>
+            <td>60</td>
+            <td>468</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>20</td>
+            <td>Tuesday, December 12</td>
+            <td>6.3</td>
+            <td>63</td>
+            <td>491</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>21</td>
+            <td>Wednesday, December 13</td>
+            <td>5.9</td>
+            <td>59</td>
+            <td>460</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>22</td>
+            <td>Thursday, December 14</td>
+            <td>6.1</td>
+            <td>61</td>
+            <td>476</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>23</td>
+            <td>Friday, December 15</td>
+            <td>6.0</td>
+            <td>60</td>
+            <td>468</td>
+            <td>76.20 (−0.45 kg)</td>
+          </tr>
+
+          <tr><td colspan="6" class="week">Week 6</td></tr>
+          <tr>
+            <td>24</td>
+            <td>Monday, December 18</td>
+            <td>7.0</td>
+            <td>70</td>
+            <td>546</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>25</td>
+            <td>Tuesday, December 19</td>
+            <td>7.3</td>
+            <td>73</td>
+            <td>569</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>26</td>
+            <td>Wednesday, December 20</td>
+            <td>6.8</td>
+            <td>68</td>
+            <td>530</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>27</td>
+            <td>Thursday, December 21</td>
+            <td>7.2</td>
+            <td>72</td>
+            <td>562</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>28</td>
+            <td>Friday, December 22</td>
+            <td>7.0</td>
+            <td>70</td>
+            <td>546</td>
+            <td>75.65 (−0.55 kg)</td>
+          </tr>
+
+          <tr><td colspan="6" class="week">Week 7</td></tr>
+          <tr>
+            <td>29</td>
+            <td>Monday, December 25</td>
+            <td>8.0</td>
+            <td>80</td>
+            <td>624</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>30</td>
+            <td>Tuesday, December 26</td>
+            <td>8.3</td>
+            <td>83</td>
+            <td>647</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>31</td>
+            <td>Wednesday, December 27</td>
+            <td>7.9</td>
+            <td>79</td>
+            <td>616</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>32</td>
+            <td>Thursday, December 28</td>
+            <td>8.1</td>
+            <td>81</td>
+            <td>632</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>33</td>
+            <td>Friday, December 29</td>
+            <td>8.0</td>
+            <td>80</td>
+            <td>624</td>
+            <td>75.00 (−0.65 kg)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="charts">
+    <h2>Analysis Charts</h2>
+
+    <div class="chart-box">
+      <h3>Date vs. Daily Distance</h3>
+      <img src="images/daily_distance.png" 
+            alt="Weekly Total Distance vs. Weight Loss"
+            class="chart-image">
+      <p class="caption">
+        The change in daily running distances (km) over time. 
+        As the distance increases, the running duration and calorie burn also increase.
+      </p>
+    </div>
+
+    <div class="chart-box">
+      <h3>Date vs. Weight (Week by Week)</h3>
+      <img src="images/weekly_weight.png" 
+            alt="Date vs. Weight (Weekly)" 
+            class="chart-image">
+      <p class="caption">
+        It shows the weigh-in results conducted every Friday over time.  
+        You can track the week-to-week weight trend.
+      </p>
+    </div>
+
+    <div class="chart-box">
+      <h3>Date vs. Daily Calories</h3>
+      <img src="images/daily_calories.png" 
+           alt="Date vs. Daily Calories" 
+           class="chart-image">
+      <p class="caption">
+        It shows how the calories burned (according to Apple Fitness data) change over time.
+      </p>
+    </div>
+
+    <div class="chart-box">
+      <h3>Weekly Total Distance vs. Weekly Weight Loss</h3>
+      <img src="images/weekly_distance_weightloss.png" 
+            alt="Weekly Distance vs. Weight Loss Chart" 
+            class="chart-image">
+      <p class="caption">
+        Examines the relationship between the total kilometers run in a week and the weight difference observed on Fridays of that week.
+      </p>
+    </div>
+
+    <div class="chart-box">
+      <h3>Weekly Total Calories vs. Weekly Weight Loss</h3>
+      <img src="images/weekly_calorie_weightloss.png" 
+            alt="Weekly Calories vs. Weight Loss Chart" 
+            class="chart-image">
+      <p class="caption">
+        A chart created to observe the correlation between total calories burned and weight changes on a weekly basis.
+      </p>
+    </div>
+
+    <div class="chart-box">
+      <h3>Daily Distance vs. Daily Weight (Scatter Plot)</h3>
+      <img src="images/daily_distance_vs_weight_scatter.png" 
+            alt="Daily Distance vs. Daily Weight Scatter" 
+            class="chart-image">
+      <p class="caption">   
+        The distribution of daily running distances and corresponding daily weights on a scatter plot.
+        Weight measurements were not taken daily, only on Fridays, making those the only comparable data points
+      </p>
+    </div>
+
+    <div class="chart-box">
+      <h3>Daily Calories vs. Daily Weight (Scatter Plot)</h3>
+      <img src="images/daily_calorie_vs_weight_scatter.png" 
+            alt="Daily Calories vs. Daily Weight Scatter" 
+            class="chart-image">
+      <p class="caption">
+        A scatter plot created to examine the distribution of daily calories burned and weight. This can be used to test the assumption that "higher calorie burn leads to lower weight."
+      </p>
+    </div>
+
+  </section>
+
+  <section class="conclusion">
+    <h2>Conclusion</h2>
+    <p>
+      These data show that as I started with <strong>2 km in the first week and increased by +1 km each week</strong> 
+      , my weight loss accelerated week by week. By the final week, I observed a decrease from 
+      <strong>78 kg to 75 kg</strong>. Therefore, the initial hypothesis of the project, <em>“Weekly distance increases accelerate the rate of weight loss”</em> 
+      appears to be <strong>supported</strong> in light of these sample data.
+    </p>
+  </section>
+
+
+  <section class="data-extraction">
+    <h2>How Did I Obtain Apple Fitness Data?</h2>
+    <p>
+      The <strong>Fitness</strong> app on the Apple Watch records my runs and other exercises in the <em>Apple Health</em> database. There are several ways to manually export these data in CSV or XML format. Here are the steps I followed:
+    </p>
+  
+    <ol>
+      <li>
+        I opened the <strong>Health</strong> app on my <strong>iPhone</strong>.
+      </li>
+      <li>
+        I went to the profile tab of the Health app (the profile in the top right or the side menu) and selected <em>"Export Health Data"</em>.
+      </li>
+      <li>
+        This process gave me an archive file named <code>export.zip</code>. Inside this archive, there was a large XML file in <code>export.xml</code> format containing <em>all my health data</em>.
+      </li>
+      <li>
+        <strong>Converting XML to CSV:</strong>
+        For this process, you can use free online converter tools or Python libraries (e.g., <code>xml.etree</code> or <code>pandas</code>). The goal is to filter records labeled as <em>Running</em> or <em>Fitness</em> and extract fields such as date, distance, calories, etc., into <code>.csv</code> format.
+      </li>
+      <li>
+        In the CSV file I obtained, I extracted columns such as <strong>date</strong>, <strong>distance</strong>, <strong>duration</strong>, and <strong>calories burned</strong>, as well as other fields like <em>average heart rate</em>, <em>elevation gain</em>, etc., if available.
+      </li>
+      <li>
+        Finally, I selected the records (from November 15 to December 29) that I wanted to include in my project and transferred them to the table.
+      </li>
+    </ol>
+  
+    <p>
+      Thus, I converted the data from the <strong>Apple Fitness</strong> app into <code>.csv</code> format using a <em>manual or semi-automatic</em> method and transformed it into the table used in my project.
+    </p>
+  
+    <p class="note">
+      Note: These steps may vary slightly depending on the <strong>iOS and Apple Watch</strong> versions. Some third-party apps (e.g., <em>RunGap</em>, <em>HealthFit</em>, etc.) can also directly export data as CSV.
+    </p>
+  </section>
+
+  <section class="future-work">
+    <h2>Future Work</h2>
+    <ul> 
+      <li>
+        Extend the data collection period (e.g., 3 months, 6 months) to examine long-term weight change trends.
+      </li> 
+      <li>
+        Include additional variables (e.g., calorie intake tracking, heart rate, sleep duration, etc.).
+      </li> 
+      <li>
+        Use weekly average weight data instead of daily weigh-ins to smooth fluctuations.
+      </li> 
+      <li>
+        Generalize this hypothesis with larger data sets (from different participants).
+      </li> 
+    </ul>
+  </section>
+
+  <section class="references">
+    <h2>Sources & Links</h2>
+    <p>
+      <a href="https://github.com/altgn007/DSA210_ProjectBurnTrack" target="_blank">
+        GitHub Repository
+      </a> (Data Cleaning and Analysis Code)<br />
+      <a href="https://www.apple.com/apple-fitness-plus/" target="_blank">
+        Apple Watch Fitness
+      </a><br />
+      <a href="https://www.apple.com/ios/health" target="_blank">
+        Apple Health
+      </a>
+    </p>
+  </section>
+
+</body>
+</html>
