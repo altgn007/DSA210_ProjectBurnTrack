@@ -134,9 +134,3 @@ In both **analysis.py** and **script.js**, this exact distribution is preserved.
 - **Machine Learning**: Predicting weight changes based on distance, calorie intake, sleep, etc.
 
 ---
-
-### Notes
-- This README and code structure reflect the final stage of the project, with **first-week-3-days** and **subsequent-weeks-5-days** explicitly enforced.  
-- If you need exactly 5 days in Week 1, you’d add 2 more days before Nov 15 or adjust the date range.
-
----
